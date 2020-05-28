@@ -15,7 +15,12 @@
         {{ currentJoke.punchline }}
       </div>
     </v-card-text>
-    <v-btn v-model="show" class="primary ma-2" @click="viewPunchline(currentJoke.id)">See Punchline!</v-btn>
+    <v-btn
+      v-model="show"
+      class="primary ma-2"
+      @click="viewPunchline(currentJoke.id)"
+      >See Punchline!</v-btn
+    >
   </v-card>
 </template>
 

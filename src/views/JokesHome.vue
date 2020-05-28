@@ -1,11 +1,14 @@
 <template>
   <v-container>
-    <v-toolbar class="mb-4 display-1" elevation="8" style="width: 72vw">Daily Jokes Application</v-toolbar>
+    <v-toolbar class="mb-4 display-1" elevation="8" style="width: 72vw"
+      >Daily Jokes Application</v-toolbar
+    >
     <v-btn
       class="teal lighten-2 white--text"
       @click="refreshNewJokes"
       :loading="loading"
-    >Get New Joke</v-btn>
+      >Get New Joke</v-btn
+    >
     <v-layout>
       <v-row align-content="center">
         <v-col cols="12">
